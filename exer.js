@@ -39,6 +39,3 @@ function AtualizaTabela() {
     const corpotabela = document.querySelector('tbody');
     corpotabela.innerHTML= Linhas;
 }
-
-
-
