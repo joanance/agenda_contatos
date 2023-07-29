@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda De contatos</title>
+    <link rel="stylesheet" href="./exer.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./imagens/agenda.jpg" alt="Agenda">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text" id="nome-contato" required placeholder="nome do contato"/>
+            <input type="tel" id="numero-contato" required placeholder="numero do contato"/>
+            <button type="submit">Adicionar+</button>
+        </form>
+        <table cellspacing="5">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do contato
+                    </th>
+                    <th>
+                        Numero do contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>---</td>
+                    <td >---</td>
+                    <td >---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./exer.js"></script>
+</body>
+</html>
